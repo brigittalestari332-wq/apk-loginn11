@@ -1,0 +1,6 @@
+{
+  "name": "Samudra",
+  "description": "Aplikasi login dan registrasi sederhana bertema biru laut dan putih dengan autentikasi Firebase dan profil pengguna Firestore.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

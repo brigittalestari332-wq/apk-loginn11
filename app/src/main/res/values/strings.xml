@@ -1,0 +1,32 @@
+<resources>
+    <string name="app_name">Samudra</string>
+    <string name="app_tagline">Portal Akun Biru Laut</string>
+    <string name="tab_login">Masuk</string>
+    <string name="tab_register">Registrasi</string>
+    <string name="login_headline">Selamat Datang Kembali</string>
+    <string name="login_subtitle">Masuk cepat dan aman ke akun Samudra Anda menggunakan Google Sign-In.</string>
+    <string name="login_google_button">Masuk dengan Google</string>
+    <string name="register_headline">Buat Akun Baru</string>
+    <string name="register_subtitle">Lengkapi data diri Anda lalu lanjutkan verifikasi dengan akun Google.</string>
+    <string name="register_google_button">Daftar dengan Google</string>
+    <string name="complete_reg_headline">Lengkapi Registrasi</string>
+    <string name="complete_reg_subtitle">Satu langkah lagi sebelum masuk ke beranda Samudra Anda.</string>
+    <string name="complete_reg_submit">Simpan &amp; Lanjutkan</string>
+    <string name="field_fullname">Nama Lengkap</string>
+    <string name="field_username">Username</string>
+    <string name="field_occupation">Profesi / Peran</string>
+    <string name="field_city">Kota Domisili (Opsional)</string>
+    <string name="welcome_greeting_prefix">Selamat Datang,</string>
+    <string name="welcome_badge">Akun Terverifikasi</string>
+    <string name="label_total_visits">Total Masuk</string>
+    <string name="label_account_status">Status Akun</string>
+    <string name="status_active">Aktif</string>
+    <string name="section_profile_details">Informasi Akun</string>
+    <string name="action_edit_profile">Edit Profil</string>
+    <string name="action_logout">Keluar</string>
+    <string name="action_save">Simpan Perubahan</string>
+    <string name="action_cancel">Batal</string>
+    <string name="error_generic">Terjadi kesalahan. Silakan coba lagi.</string>
+    <string name="cd_hero_banner">Ilustrasi ombak biru laut Samudra</string>
+    <string name="cd_app_logo">Logo aplikasi Samudra</string>
+</resources>

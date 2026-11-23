@@ -1,0 +1,74 @@
+{
+  "entities": {
+    "UserProfile": {
+      "title": "UserProfile",
+      "description": "Profil pengguna terdaftar aplikasi Samudra",
+      "type": "object",
+      "properties": {
+        "userId": {
+          "type": "string",
+          "description": "UID pengguna Firebase Auth"
+        },
+        "fullName": {
+          "type": "string",
+          "description": "Nama lengkap pengguna (2-80 karakter)"
+        },
+        "username": {
+          "type": "string",
+          "description": "Username alfanumerik pengguna (3-30 karakter)"
+        },
+        "email": {
+          "type": "string",
+          "description": "Email akun Google pengguna"
+        },
+        "occupation": {
+          "type": "string",
+          "description": "Profesi atau peran tampilan pengguna (maks 60 karakter)"
+        },
+        "city": {
+          "type": "string",
+          "description": "Kota domisili pengguna (maks 60 karakter)"
+        },
+        "loginCount": {
+          "type": "integer",
+          "description": "Jumlah total sesi masuk pengguna"
+        },
+        "createdAt": {
+          "type": "string",
+          "format": "date-time",
+          "description": "Waktu pendaftaran akun (server timestamp)"
+        },
+        "updatedAt": {
+          "type": "string",
+          "format": "date-time",
+          "description": "Waktu pembaruan profil terakhir (server timestamp)"
+        },
+        "lastLoginAt": {
+          "type": "string",
+          "format": "date-time",
+          "description": "Waktu masuk terakhir (server timestamp)"
+        }
+      },
+      "required": [
+        "userId",
+        "fullName",
+        "username",
+        "email",
+        "occupation",
+        "city",
+        "loginCount",
+        "createdAt",
+        "updatedAt",
+        "lastLoginAt"
+      ]
+    }
+  },
+  "firestore": {
+    "/users/{userId}": {
+      "schema": {
+        "$ref": "#/entities/UserProfile"
+      },
+      "description": "Dokumen profil pengguna yang diisolasi berdasarkan UID"
+    }
+  }
+}
